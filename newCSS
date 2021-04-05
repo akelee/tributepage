@@ -1,0 +1,108 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    margin: 30px 8px;
+    background:#ffffff;
+    margin:0x;
+    color:#313131;
+         }
+
+.container{
+    min-width:90%;
+    margin-left: ;
+    overflow: hidden;
+    overflow-y: auto;
+    text-align: center;
+    background: #e7e6e6;
+    border-radius: 2px;
+}
+
+ul{
+    padding: 0;
+    margin: 0 auto 50px auto;
+}
+
+li{
+    margin: 16px 0;
+}
+
+.showcase h1 {
+    text-align: center;
+    font-size: 40px;
+    min-width: 80%;
+}
+.showcase p{
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    position:;
+  }
+  
+  #img-div {
+    background:white;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+    text-align: center;
+  }
+
+.timeline{
+    text-align: center;
+    min-width: 90%;
+    max-width:;
+}
+
+.timeline h2{
+    text-align: center;
+}
+
+section .timeline-info{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 40px;
+    margin: 0 auto 50px auto;
+    
+    padding: auto;
+    text-align: center;
+    min-width: 90%;
+    background: #e7e6e6;
+  }
+  
+  #footnote{
+      font-weight: bold;
+  }
+
+  .finalwords a{
+      text-decoration: none;
+      color:#694e67
+  }
+
+@media(max-width:300px){
+    body, .showcase, .showcase p, .image, .timeline, img, .timeline,.timeline h2,#img-div, #img-caption, blockquote, #footnote{
+        float:none;
+        text-align:center;
+        width:100%;
+        margin:0;
+        padding-right:40px;
+        overflow:hidden;
+        overflow-y: auto;
+    }
+    .timeline-info ul{
+        padding:1.2em, 3em;
+    }
+    }
+    @media(max-height:500px){
